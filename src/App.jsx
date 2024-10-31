@@ -9,10 +9,11 @@ import LoginPage from "./pages/LoginPage/LoginPage";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
 import AddPetPage from "./pages/AddPetPage/AddPetPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
-    <>
+    <Layout>
       <Routes>
         <Route path="/" element={<>Main</>} />
         <Route path="/home" element={<HomePage />} />
@@ -25,7 +26,7 @@ function App() {
         <Route path="/add-pet" element={<AddPetPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-    </>
+    </Layout>
   );
 }
 
