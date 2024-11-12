@@ -1,0 +1,42 @@
+.header {
+  margin: 34px auto 16px;
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid red;
+  width: 335px;
+  height: 40px;
+}
+
+.logoContainer {
+  align-self: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #262626;
+}
+
+.heartIcon {
+}
+
+.rightContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.userWrapper {
+  background-color: #fff4df;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userIcon {
+}
+
+.burgerWrapper {
+  align-self: center;
+}
